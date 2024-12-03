@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="resumeForm">
+        <h2>Personal Information</h2>
+        <label for="username">UserName</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <h2>Education</h2>
+        <label  for="education">Education:</label>
+        <input type="text" id="education" name="education"><br><br>
+
+        <h2>Work Experience</h2>
+        <label  for="experience">Experience:</label>
+        <input type="text" id="experience" name="experience"><br><br>
+
+        <h2>Skills</h2>
+        <label  for="skills">Skills:</label>
+        <input type="text" id="skills" name="skills"><br><br>
+
+        <h2>Description</h2>
+        <label  for="description">Descripition:</label>
+        <input type="text" id="description" name="description"><br><br>
+           
+        <button type="submit">Generate Resume</button>
+         </form>
+
+        <div id="resumeOutput"></div><br>
+
+        <div id="shareable-link-container" style="display: none;">
+            <h2>Shareable Link</h2>
+            <a href="#" id="shareable-link" target="_blank"></a><br>
+            <button id="download-pdf"><b>Download as pdf</b></button>
+
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
+</body>
+</html>
